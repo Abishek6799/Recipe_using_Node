@@ -1,5 +1,5 @@
 import express from "express";
-import { createrecipe, deleterecipe, getallrecipe, getrecipebyid, updaterecipe } from "../Controllers/recipeController.js";
+import { createrecipe, deleterecipe, getallrecipe, getrecipebyid, updaterecipe} from "../Controllers/recipeController.js";
 
 
 const router = express();
